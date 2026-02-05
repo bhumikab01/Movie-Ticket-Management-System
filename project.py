@@ -1,7 +1,7 @@
 import matplotlib.pyplot as pl
 def show():
      import mysql.connector as ms
-     db=ms.connect(host='127.0.0.1',port=3307,user='root',password='63426684',database='movtkt')
+     db=ms.connect(host='127.0.0.1',port=3307,user='username',password='yourpassword',database='movtkt')
      crs=db.cursor()
      db.autocommit=True
      q='use movtkt'
@@ -19,7 +19,7 @@ def show():
 
 def add():
      import mysql.connector as ms
-     db=ms.connect(host='127.0.0.1',port=3307,user='root',password='63426684',database='movtkt')
+     db=ms.connect(host='127.0.0.1',port=3307,user='username',password='yourpassword',database='movtkt')
      crs=db.cursor()
      db.autocommit=True
      q="use movtkt"
@@ -40,7 +40,7 @@ def add():
 def delete():
      import mysql.connector
 
-     mydb=mysql.connector.connect(host='127.0.0.1',user='root',password="63426684",database='movtkt')
+     mydb=mysql.connector.connect(host='127.0.0.1',user='username',password="yourpassword",database='movtkt')
      crs=mydb.cursor()
      mydb.autocommit=True
      queryuse="use movtkt"
@@ -114,7 +114,7 @@ def graph():
 
 def see():
      import mysql.connector as ms
-     db=ms.connect(host='127.0.0.1',port=3307,user='root',password='63426684',database='movtkt')
+     db=ms.connect(host='127.0.0.1',port=3307,user='username',password='yourpassword',database='movtkt')
      crs=db.cursor()
      db.autocommit=True
      q="use movtkt"
@@ -152,7 +152,7 @@ def see():
 
 def book():
      import mysql.connector as ms
-     db=ms.connect(host='127.0.0.1',port=3307,user='root',password='63426684',database='movtkt')
+     db=ms.connect(host='127.0.0.1',port=3307,user='username',password='yourpassword',database='movtkt')
      crs=db.cursor()
      db.autocommit=True
      q="use movtkt"
@@ -175,7 +175,7 @@ def book():
      user()
 def dele():
      import mysql.connector
-     mydb=mysql.connector.connect(host='127.0.0.1',port=3307,user='root',password='63426684',database='movtkt')
+     mydb=mysql.connector.connect(host='127.0.0.1',port=3307,user='username',password='yourpassword',database='movtkt')
      crs=mydb.cursor()
      mydb.autocommit=True
      queryuse="use movtkt"
@@ -278,7 +278,7 @@ while True:
          import datetime
          import pandas as pd
          import matplotlib.pyplot as pl
-         db=msc.connect(host='127.0.0.1',port=3307,user='root',password='63426684')
+         db=msc.connect(host='127.0.0.1',port=3307,user='username',password='yourpassword')
          crs=db.cursor()
          db.autocommit=True
          q1="create database if not exists movtkt"
