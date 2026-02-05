@@ -36,7 +36,7 @@ This project is a Python-based console application designed to manage movie list
         pip install mysql-connector-python pandas matplotlib
         ```
 2.  **Configuration**:
-    * Open `project.py` and ensure the MySQL `password` (default: `'63426684'`) matches your local environment.
+    * Open `project.py` and ensure the MySQL `password` matches your local environment.
 3.  **Run the Application**:
     ```bash
     python project.py
