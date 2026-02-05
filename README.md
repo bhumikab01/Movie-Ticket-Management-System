@@ -7,7 +7,7 @@ This project is a Python-based console application designed to manage movie list
 * **Dual-Portal System**:
     * **Admin Portal**: Securely accessible via password (`web@portal`). Admins can manage the movie database (Add/Delete/Show movies), view all booked tickets, and generate analytical graphs.
     * **User Portal**: Allows customers to book new tickets, view their existing bookings using a customer ID, or cancel a ticket.
-* **Database Automation**: Upon starting with the correct PIN (`634237`), the system automatically initializes the `movtkt` database and creates tables for movies (`mt`) and bookings. It also populates the system with default movie and booking data if the tables are empty.
+* **Database Automation**: Upon starting with the correct PIN (`1234`), the system automatically initializes the `movtkt` database and creates tables for movies (`mt`) and bookings. It also populates the system with default movie and booking data if the tables are empty.
 * **Data Visualization**:
     * **Line Graphs**: Displays a trend of tickets sold per movie.
     * **Bar Graphs**: Provides a visual comparison of ticket sales across different movie titles using `matplotlib`.
@@ -44,6 +44,6 @@ This project is a Python-based console application designed to manage movie list
 
 ## 📝 Usage
 
-* **Authentication**: Enter the system PIN `634237` to access the main menu.
+* **Authentication**: Enter the system PIN `1234` to access the main menu.
 * **Booking**: Users must provide details including Name, Address, Phone Number, Movie Code, and the Number of Tickets.
 * **Admin Tasks**: Use the Admin portal to update the movie lineup or view the sales performance via the "Show Graph" option.
