@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as pl
 def show():
      import mysql.connector as ms
